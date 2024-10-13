@@ -37,7 +37,7 @@ $ npm run dev
 ### プロダクト起動
 
 ```bash
-$ npm install pm2 -g
+$ npm install -g pm2
 $ cd /path/to/helloworld-prod-go/app
 # pm2 start npm --name helloworld-prod-js -- start
 $ npm run pm2-start
@@ -49,7 +49,7 @@ $ npm run pm2-start
 ```bash
 $ cd /path/to/helloworld-prod-go/app
 # pm2 reload helloworld-prod-js
-$ npm run pm2-start
+$ npm run pm2-reload
 ```
 
 
@@ -58,7 +58,7 @@ $ npm run pm2-start
 ```bash
 $ cd /path/to/helloworld-prod-go/app
 # pm2 stop helloworld-prod-js
-$ npm run pm2-start
+$ npm run pm2-stop
 ```
 
 
@@ -67,7 +67,7 @@ $ npm run pm2-start
 ```bash
 $ cd /path/to/helloworld-prod-go/app
 # pm2 delete helloworld-prod-js
-$ npm run pm2-start
+$ npm run pm2-delete
 # 全削除
 $ pm2 kill
 ```
