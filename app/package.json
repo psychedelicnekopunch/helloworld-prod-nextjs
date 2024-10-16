@@ -1,5 +1,5 @@
 {
-  "name": "helloworld-prod-js",
+  "name": "helloworld-prod-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,13 +8,13 @@
     "start": "next start -p 3000",
     "lint": "next lint",
     "pm2-production-start": "pm2 start ecosystem.config.js --env production",
-    "pm2-production-reload": "pm2 reload helloworld-prod-js",
-    "pm2-production-stop": "pm2 stop helloworld-prod-js",
-    "pm2-production-delete": "pm2 delete helloworld-prod-js",
+    "pm2-production-reload": "pm2 reload helloworld-prod-nextjs",
+    "pm2-production-stop": "pm2 stop helloworld-prod-nextjs",
+    "pm2-production-delete": "pm2 delete helloworld-prod-nextjs",
     "pm2-staging-start": "pm2 start ecosystem.config.js --env staging",
-    "pm2-staging-reload": "pm2 reload helloworld-prod-js-staging",
-    "pm2-staging-stop": "pm2 stop helloworld-prod-js-staging",
-    "pm2-staging-delete": "pm2 delete helloworld-prod-js-staging"
+    "pm2-staging-reload": "pm2 reload helloworld-prod-nextjs-staging",
+    "pm2-staging-stop": "pm2 stop helloworld-prod-nextjs-staging",
+    "pm2-staging-delete": "pm2 delete helloworld-prod-nextjs-staging"
   },
   "dependencies": {
     "react": "^18",
