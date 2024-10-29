@@ -13,7 +13,7 @@
 $ docker-compose up
 ```
 
-~http://localhost:3000 にアクセス~
+~http://localhost:3000 にアクセス~  
 http://localhost:8080 にアクセス
 
 
