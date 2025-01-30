@@ -11,7 +11,7 @@
     "pm2-production-reload": "pm2 reload helloworld-prod-nextjs",
     "pm2-production-stop": "pm2 stop helloworld-prod-nextjs",
     "pm2-production-delete": "pm2 delete helloworld-prod-nextjs",
-    "pm2-staging-start": "pm2 start ecosystem.config.js --env staging",
+    "pm2-staging-start": "pm2 start ecosystem.config.js --env development",
     "pm2-staging-reload": "pm2 reload helloworld-prod-nextjs-staging",
     "pm2-staging-stop": "pm2 stop helloworld-prod-nextjs-staging",
     "pm2-staging-delete": "pm2 delete helloworld-prod-nextjs-staging"

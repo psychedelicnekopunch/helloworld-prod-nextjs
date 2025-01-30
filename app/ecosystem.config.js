@@ -12,7 +12,7 @@ module.exports = {
     },
     env_staging: {
         name: "helloworld-prod-nextjs-staging",
-        NODE_ENV: "staging",
+        NODE_ENV: "development",
         PORT: 3001,
     }
   }]

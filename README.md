@@ -23,7 +23,7 @@ http://localhost:8080 にアクセス
 ### build
 
 ```bash
-$ cd /path/to/helloworld-prod-go/app
+$ cd /path/to/helloworld-prod-nextjs/app
 $ npm install
 $ npm run build
 ```
@@ -31,7 +31,7 @@ $ npm run build
 ### watch
 
 ```bash
-$ cd /path/to/helloworld-prod-go/app
+$ cd /path/to/helloworld-prod-nextjs/app
 $ npm run dev
 ```
 
@@ -43,8 +43,8 @@ $ npm run dev
 
 ```bash
 $ npm install -g pm2
-$ cd /path/to/helloworld-prod-go/app
-# pm2 start npm --name helloworld-prod-js -- start
+$ cd /path/to/helloworld-prod-nextjs/app
+# pm2 start npm --name helloworld-prod-nextjs -- start
 #$ npm run pm2-start
 
 # Production
@@ -60,14 +60,14 @@ $ npm run pm2-staging-start
 #### プロダクト再起動
 
 ```bash
-$ cd /path/to/helloworld-prod-go/app
+$ cd /path/to/helloworld-prod-nextjs/app
 
 # Production
-# pm2 reload helloworld-prod-js
+# pm2 reload helloworld-prod-nextjs
 $ npm run pm2-production-reload
 
 # Staging
-# pm2 reload helloworld-prod-js-staging
+# pm2 reload helloworld-prod-nextjs-staging
 $ npm run pm2-staging-reload
 ```
 
@@ -75,14 +75,14 @@ $ npm run pm2-staging-reload
 #### プロダクト停止
 
 ```bash
-$ cd /path/to/helloworld-prod-go/app
+$ cd /path/to/helloworld-prod-nextjs/app
 
 # Production
-# pm2 stop helloworld-prod-js
+# pm2 stop helloworld-prod-nextjs
 $ npm run pm2-production-stop
 
 # Staging
-# pm2 stop helloworld-prod-js-staging
+# pm2 stop helloworld-prod-nextjs-staging
 $ npm run pm2-staging-stop
 ```
 
@@ -90,14 +90,14 @@ $ npm run pm2-staging-stop
 #### プロダクト削除
 
 ```bash
-$ cd /path/to/helloworld-prod-go/app
+$ cd /path/to/helloworld-prod-nextjs/app
 
 # Production
-# pm2 delete helloworld-prod-js
+# pm2 delete helloworld-prod-nextjs
 $ npm run pm2-production-delete
 
 # Staging
-# pm2 delete helloworld-prod-js-staging
+# pm2 delete helloworld-prod-nextjs-staging
 $ npm run pm2-staging-delete
 
 # 全削除
