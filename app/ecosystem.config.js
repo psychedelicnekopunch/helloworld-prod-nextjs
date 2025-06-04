@@ -10,7 +10,7 @@ module.exports = {
         NODE_ENV: "production",
         PORT: 3000,
     },
-    env_staging: {
+    env_development: {
         name: "helloworld-prod-nextjs-stg",
         NODE_ENV: "development",
         PORT: 3001,
