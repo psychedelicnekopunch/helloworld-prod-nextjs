@@ -1,32 +1,24 @@
 {
-  "name": "helloworld-prod-nextjs",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3000",
-    "lint": "next lint",
-    "pm2-production-start": "pm2 start ecosystem.config.js --env production",
-    "pm2-production-reload": "pm2 reload helloworld-prod-nextjs-prod",
-    "pm2-production-stop": "pm2 stop helloworld-prod-nextjs-prod",
-    "pm2-production-delete": "pm2 delete helloworld-prod-nextjs-prod",
-    "pm2-staging-start": "pm2 start ecosystem.config.js --env development",
-    "pm2-staging-reload": "pm2 reload helloworld-prod-nextjs-stg",
-    "pm2-staging-stop": "pm2 stop helloworld-prod-nextjs-stg",
-    "pm2-staging-delete": "pm2 delete helloworld-prod-nextjs-stg"
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "next": "14.2.15",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
     "typescript": "^5"
   }
 }
